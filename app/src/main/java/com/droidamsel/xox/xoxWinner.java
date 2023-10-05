@@ -24,7 +24,7 @@ public class xoxWinner extends Dialog {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_xox_result);
+        setContentView(R.layout.activity_xox_result);//result dialog
 
         //INITIALIZATION
         TextView messageText = findViewById(R.id.msgText);

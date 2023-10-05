@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private final ImageView[] cells = new ImageView[9]; //array of image view for the 9 cells
     private final List<int[]> combination = new ArrayList<>(); //
     private int[] position = {0, 0, 0, 0, 0, 0, 0, 0, 0}; //position array for each index
-    private int turn = 1;
+    private int turn = 1;//turn
     private int totalSelectedBoxes = 0; // Start from 0 initially
     private  TextView playerOneNameTextView ;
     private TextView playerTwoNameTextView;
