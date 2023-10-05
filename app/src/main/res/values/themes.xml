@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+         <item name="colorPrimaryDark">@color/dark_olive</item>
+        <item name="colorPrimary">@color/isa_white</item>
+    </style>
+</resources>

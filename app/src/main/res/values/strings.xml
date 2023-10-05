@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">XOX</string>
+    <string name="player1">PLAYER 1</string>
+    <string name="player2">PLAYER 2</string>
+    <string name="per">"Please Enter Player Name"</string>
+    <string name="made">"Made with Love by theQuirkyCommitter"</string>
+    <string name="name1">"Enter the name of the first player"</string>
+    <string name="name2">"Enter the name of the second player"</string>
+    <string name="players">"NAME \n OF THE PLAYERS:"</string>
+    <string name="start">"START GAME"</string>
+</resources>

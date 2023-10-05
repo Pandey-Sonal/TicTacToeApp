@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Players"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/dark_olive"
+    android:padding="15dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/white_border"
+        android:orientation="vertical"
+        android:padding="20dp"
+     >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/players"
+            android:textAlignment="center"
+            android:textColor="@color/dark_green"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/player1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/dark_border"
+            android:drawableStart="@drawable/cross"
+            android:drawablePadding="8dp"
+            android:textSize="15sp"
+            android:autofillHints="name"
+            android:hint="@string/name1"
+            android:maxLines="1"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textColor="@color/dark_green"
+            android:textStyle="italic"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/player2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dark_border"
+            android:drawableStart="@drawable/zero"
+            android:textSize="15sp"
+            android:inputType="text"
+            android:hint="@string/name2"
+            android:autofillHints="name"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textColor="@color/dark_green"
+            android:textStyle="italic"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <Button
+            android:id="@+id/startGameButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/start"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="2dp"
+            android:background="@drawable/dark_border"
+            android:textColor="@color/dark_olive"
+            tools:ignore="VisualLintButtonSize" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
